@@ -1,0 +1,69 @@
+$primary-overlay: rgba(30, 62, 134, 0.76);
+
+.bg-white{
+	color: white;
+}
+
+#main{
+	margin-top: 75px;
+	position: relative;
+	background: url('../img/greg.jpg');
+	min-height: 700px;
+	background-size: cover;
+
+	.primary-overlay{
+		background: $primary-overlay;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+.navbar{
+
+	//border-bottom: white 1px solid;
+	box-shadow: .1px .1px .1px white;
+  //opacity: 0.9;
+}
+
+.navbar-brand{
+	font-size: 2rem;
+}
+
+.display-2{
+	color: rgba(233, 237, 247, 0.37);
+	//text-shadow: 1px 1px 5px rgba(96, 130, 248, 0.49);
+
+}
+
+#skills-body{
+	background-color: rgb(177, 205, 250);
+}
+
+#work-body{
+	background-color: rgb(177, 205, 250);
+}
+
+#contact-body{
+	background-color: rgb(177, 205, 250);
+}
+
+
+	#logo{
+		height: 150px;
+		width: 120px;
+		opacity: 0.4;
+
+	}
+
+#dev-text{
+	opacity: 0.5;
+}
+
+.work-pics{
+	height: 160px;
+	width: 160px;
+}
